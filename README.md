@@ -54,3 +54,10 @@ When troubleshooting, move from the lowest layer to the highest to ensure the fo
 - **Compare Known-Goods**: Compare the configuration and logs of a failing server with a healthy one in the same cluster.
 - **Toggle Features**: Use feature flags or configuration toggles to isolate whether a new feature is causing the failure.
 - **Binary Search the Pipeline**: Bypass the Load Balancer, then the API Gateway, then call the backend directly to see where the request is dropped.
+
+## Debugging Tools Glossary
+
+- **mtr**: Combination of ping and traceroute for network path analysis.
+- **strace**: Traces system calls and signals (for deep process analysis).
+- **tcpdump**: Command-line packet analyzer for network troubleshooting.
+- **journalctl**: Query and display logs from journald.
