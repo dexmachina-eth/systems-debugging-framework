@@ -1,3 +1,5 @@
+[![Lint](https://github.com/harrison-vc/systems-debugging-framework/actions/workflows/lint.yml/badge.svg)](https://github.com/harrison-vc/systems-debugging-framework/actions/workflows/lint.yml)
+
 # systems-debugging-framework
 
 A comprehensive mental model and technical framework for troubleshooting complex distributed systems. This repository defines a structured approach to identifying, isolating, and resolving system-level failures.
